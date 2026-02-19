@@ -129,9 +129,10 @@ REST_FRAMEWORK = {
         "rest_framework.permissions.AllowAny",
     ]
 }
+
 CSRF_TRUSTED_ORIGINS = [
-    "https://drf-todo-sthr.onrender.com",
-    "http://localhost:8001",
-    "http://127.0.0.1:8001",
+    "http://localhost:8000",
+    "http://127.0.0.1:8000",
+    "https://glorious-computing-machine-q7p9rw9gw9j72696x-8000.app.github.dev",
 ]
 
